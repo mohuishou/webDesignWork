@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>国画欣赏</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/amazeui.min.css">
+    <style>
+        .am-slider img{
+            max-height: 500px;//防止过高限制最高高度
+        }
+        .am-topbar{
+            margin-bottom: 0;//去除导航栏和Slider之间的间隙
+        }
+    </style>
+</head>
+<body>
+   
+    <header class="am-topbar">
+   <!-- 导航 -->
+    <div class="am-g am-g-fixed">
+        <h1 class="am-topbar-brand">
+    <a href="#">国画欣赏</a>
+  </h1>
+
+  <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+  <div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse">
+    <ul class="am-nav am-nav-pills am-topbar-nav">
+      <li class="am-active"><a href="#">首页</a></li>
+      <li><a href="#">项目</a></li>
+    </ul>
+    </div>
+</header>
+      <div data-am-widget="slider" class="am-slider am-slider-default" data-am-slider='{&quot;animation&quot;:&quot;slide&quot;,&quot;slideshow&quot;:false}' >
+  <ul class="am-slides">
+      <li>
+            <img src="http://s.amazeui.org/media/i/demos/bing-1.jpg">
+          <div class="am-slider-desc">这是标题标题标题标题标题标题标题0</div>
+         
+      </li>
+      <li>
+            <img src="http://s.amazeui.org/media/i/demos/bing-2.jpg">
+          <div class="am-slider-desc">这是标题标题标题标题标题标题标题1</div>
+         
+      </li>
+      <li>
+            <img src="http://s.amazeui.org/media/i/demos/bing-3.jpg">
+          <div class="am-slider-desc">这是标题标题标题标题标题标题标题2</div>
+         
+      </li>
+      <li>
+            <img src="http://s.amazeui.org/media/i/demos/bing-4.jpg">
+          <div class="am-slider-desc">这是标题标题标题标题标题标题标题3</div>
+         
+      </li>
+  </ul>
+</div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/amazeui.min.js"></script>
+</body>
+</html>
