@@ -2,9 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>国画欣赏</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/amazeui.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .am-slider img{
+            max-height: 500px;//防止过高限制最高高度
+        }
+       
+    </style>
 </head>
 <body>
-    
+   
+<header class="am-topbar">
+   <!-- 导航 -->
+    <div class="am-g am-g-fixed">
+        <h1 class="am-topbar-brand">
+            <a href="#">国画欣赏</a>
+        </h1>
+        <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+        <div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse">
+            <ul class="am-nav am-nav-pills am-topbar-nav">
+              <li><a href="index.html">首页</a></li>
+              <li><a href="flxs.html">分类欣赏</a></li>
+              <li  class="am-active"><a href="ghds.html">国画大师</a></li>
+              <li><a href="ghzh.html">国画知识</a></li>
+              <li><a href="jrmh.html">今日名画</a></li>
+              <li><a href="ghlt.html">国画论坛</a></li>
+              <li><a href="lxwm.html">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+    <div id="footer">
+        <p>Copyright © 2016 国画欣赏网 All Rights Reserved.  技术支持：Mohuishou</p>
+        <p>版权声明：本网站所有图片资料均来自于网络，作业作品仅供学习，如有侵权请联系administrators@stu.edu.cn</p>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/amazeui.min.js"></script>
 </body>
 </html>

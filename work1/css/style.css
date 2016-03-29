@@ -1,0 +1,4 @@
+//公共css文件
+ .am-topbar{
+    margin-bottom: 0;//去除导航栏和Slider之间的间隙
+}
