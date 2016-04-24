@@ -1,0 +1,28 @@
+body{
+	width: 100%;
+}
+.tips{
+	width: 100%;
+	font-size: 15px;
+	background-color: rgb(200,200,200);
+}
+.form{
+	width: 100%;
+	padding-left: 5%;
+}
+.right{
+	width: 20%;
+	margin-right:10%;
+	direction: rtl;
+}
+.right_2{
+	width: 26.5%;
+	margin-right:10%;
+	direction: rtl;
+}
+.ooo{
+	background-color: rgb(200,200,200);
+	display: block;
+	margin: auto;
+	width: 12%;
+}

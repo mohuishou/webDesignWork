@@ -1,0 +1,117 @@
+<!Doctype html>
+
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>表单</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+<div>
+
+    <form class='form'>
+        <p class='tips'>填写基本信息(带*号的内容必须填写)</p>
+        <table align="center">
+            <tr class='tr'>
+                <td>用户名:</td>
+                <td><input type='text' class='input'>
+                    <button type="submit" class="button">检测用户名</button>
+                    (5~18字符)
+                </td>
+                <td class='right'>*</td>
+            </tr>
+            <tr class='tr'>
+                <td>密码:</td>
+                <td><input type='password' class='input'>(6~20位密码)</td>
+                <td class='right'>*</td>
+            </tr>
+            <tr class='tr'>
+                <td>密码确认:</td>
+                <td><input type='password' class='input'>(再次输入密码以确认)</td>
+                <td class='right'>*</td>
+            </tr>
+            <tr class='tr'>
+                <td>昵称:</td>
+                <td><input type='text' class='input'>(16个字符长度的中英文)</td>
+                <td class='right'>*</td>
+            </tr>
+            <tr class='tr'>
+                <td>性别:</td>
+                <td><input type=radio class='input' name='gender'>男<input type=radio class='input' name='gender'>女</td>
+                <td class='right'>*</td>
+            </tr>
+        </table>
+        <p class='tips'>填写详细信息</p>
+        <table align="center">
+            <tr class='tr'>
+                <td>密码保护问题:</td>
+                <td><input type='text' class='input'>(取回密码问题)</td>
+                <td class='right_2'>*</td>
+            </tr>
+            <tr class='tr'>
+                <td>密码保护答案:</td>
+                <td><input type='password' class='input'>(密码问题答案)</td>
+                <td class='right_2'>*</td>
+            </tr>
+            <tr class='tr'>
+                <td>真实姓名:</td>
+                <td><input type='password' class='input'></td>
+                <!-- <td class='right'>*</td> -->
+            </tr>
+            <tr class='tr'>
+                <td>证件类型</td>
+                <td>
+                    <select name="cars">
+                        <option value="0">- 请选择 -</option>
+                        <option value="volvo">身份证</option>
+                        <option value="saab">军人证</option>
+                        <option value="fiat">护照</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class='tr'>
+                <td>证件号码:</td>
+                <td><input type='text' class='input'></td>
+                <!-- <td class='right'>*</td> -->
+            </tr>
+            <tr class='tr'>
+                <td>个性签名图:</td>
+                <td><input type='file' class='input'></td>
+                <!-- <td class='right'>*</td> -->
+            </tr>
+            <tr class='tr'>
+                <td>个人简介:</td>
+                <td><textarea rows="4" cols="30" class='input'>我很懒,不想动手!-_-!</textarea></td>
+
+            </tr>
+            <tr class='tr'>
+                <td>你感兴趣的信息:</td>
+                <td>
+                    <input type="checkbox" name="vehicle"/> 电脑硬件
+                    <input type="checkbox" name="vehicle"/> 电脑软件
+                    <input type="checkbox" name="vehicle"/> 电脑游戏
+                    <input type="checkbox" name="vehicle"/> 音乐
+                    <input type="checkbox" name="vehicle"/> 旅游
+                </td>
+                <!-- <td class='right'>*</td></tr> -->
+            </tr>
+
+        </table>
+
+        <table align="center" class='tips'>
+            <tr>
+                <td>
+                    <div class='ooo'>
+                        <input type="submit" value="提交">
+                        <input type="reset" value="重置">
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>留言</title>
+    <style>
+    
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+        form{
+            width: 100%;
+            display: table;
+        }
+        .form-group{
+            display: table-row;
+        }
+        .form-group label{
+            width: 10%;
+            min-width:80px;
+            max-width: 200px;
+            display: table-cell;
+        }
+        .form-group input,
+        .form-group textarea{
+            width: 70%;
+            display: table-cell;
+        }
+        
+    </style>
+</head>
+<body>
+    <form>
+        <div class="form-group">
+            <label>用户名:</label>
+            <input name="username" type="text" placeholder="请输入你的用户名" />
+        </div>
+        <div class="form-group">
+            <label>密码:</label>
+            <input name="password" type="password" placeholder="请输入你的密码" />
+        </div>
+        <div class="form-group">
+            <label>email:</label>
+            <input name="email" type="email" placeholder="请输入你的邮箱" />
+        </div>
+        <div class="form-group">
+            <label>主题:</label>
+            <input name="subject" placeholder="请输入你的主题" type="text" />
+        </div>
+        <div class="form-group">
+            <label >留言:</label>
+             <textarea name="comment" placeholder="请输入你的留言"></textarea>
+        </div>
+       
+    </form>
+</body>
+</html>
