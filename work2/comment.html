@@ -13,7 +13,7 @@
             width: 100%;
             display: table;
         }
-        .form-group{
+        .row{
             display: table-row;
         }
         .form-group label{
@@ -22,8 +22,7 @@
             max-width: 200px;
             display: table-cell;
         }
-        .form-group input,
-        .form-group textarea{
+        .form-group .form-input{
             width: 70%;
             display: table-cell;
         }
@@ -32,25 +31,49 @@
 </head>
 <body>
     <form>
-        <div class="form-group">
+        <h3>请你留言</h3>
+        <div class="form-group row">
             <label>用户名:</label>
-            <input name="username" type="text" placeholder="请输入你的用户名" />
+            <input class="form-input" name="username" type="text" placeholder="请输入你的用户名" />
         </div>
-        <div class="form-group">
+        <div class="form-group row">
             <label>密码:</label>
-            <input name="password" type="password" placeholder="请输入你的密码" />
+            <input class="form-input" name="password" type="password" placeholder="请输入你的密码" />
         </div>
-        <div class="form-group">
+        <div class="form-group row">
+            <label>表情：</label>
+            <div class="form-input">
+                <div class="row">
+                    <input  type="radio" name="bq" /><img src="img/13.GIF" />
+                    <input  type="radio" name="bq" /><img src="img/14.GIF" />
+                    <input  type="radio" name="bq" /><img src="img/15.GIF" />
+                    <input  type="radio" name="bq" /><img src="img/16.GIF" />
+                    <input  type="radio" name="bq" /><img src="img/17.GIF" />
+                    <input  type="radio" name="bq" /><img src="img/18.GIF" />
+                </div>
+                <div class="row">
+                    <input  type="radio" name="bq" /><img src="img/19.GIF" />
+                    <input  type="radio" name="bq" /><img src="img/20.GIF" />
+                    <input  type="radio" name="bq" /><img src="img/21.GIF" />
+                    <input  type="radio" name="bq" /><img src="img/22.GIF" />
+                    <input  type="radio" name="bq" /><img src="img/23.GIF" />
+                    <input  type="radio" name="bq" /><img src="img/SAD.GIF" />
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="form-group row">
             <label>email:</label>
-            <input name="email" type="email" placeholder="请输入你的邮箱" />
+            <input class="form-input" name="email" type="email" placeholder="请输入你的邮箱" />
         </div>
-        <div class="form-group">
+        <div class="form-group row">
             <label>主题:</label>
-            <input name="subject" placeholder="请输入你的主题" type="text" />
+            <input class="form-input" name="subject" placeholder="请输入你的主题" type="text" />
         </div>
-        <div class="form-group">
+        <div class="form-group row">
             <label >留言:</label>
-             <textarea name="comment" placeholder="请输入你的留言"></textarea>
+             <textarea class="form-input" name="comment" placeholder="请输入你的留言"></textarea>
         </div>
        
     </form>
