@@ -8,10 +8,22 @@
         html,body{
             width: 100%;
             height: 100%;
+            margin: 0;
         }
         form{
-            width: 100%;
+            margin:20px auto;
+            width: 50%;
             display: table;
+            padding: 20px;
+            background: #FFFFaa;
+            border:1px #333 solid;
+        }
+        form h4{
+            margin-top: 0px;
+            width: 100%;
+            background:#FF9966;
+            color: #fafafa;
+            
         }
         .row{
             display: table-row;
@@ -31,7 +43,9 @@
 </head>
 <body>
     <form>
-        <h3>请你留言</h3>
+        
+        <h4>请你留言</h4>
+        
         <div class="form-group row">
             <label>用户名:</label>
             <input class="form-input" name="username" type="text" placeholder="请输入你的用户名" />
