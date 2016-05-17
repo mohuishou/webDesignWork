@@ -1,0 +1,19 @@
+#footer {
+	height: 80px;
+	width: 776px;
+	background-color: #FFF;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #9B2775;
+	color: #090;
+}
+#footer ul {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+#footer ul a {
+	padding-right: 15px;
+	padding-left: 15px;
+	color: #00F;
+}

@@ -1,0 +1,72 @@
+#master_right #mk11 {
+	color: #090;
+	padding-left: 10px;
+}
+#master_right #mk12 {
+	background-image: url(../images/00026.jpg);
+	background-repeat: repeat;
+}
+
+#master_right img {
+	height: 90px;
+	width: 110px;
+	border: thin solid #0C9;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-right: 4px;
+	padding-bottom: 10px;
+	padding-left: 4px;
+	display: block;
+}
+
+#master_right .text1 {
+	height: 30px;
+	width: 150px;
+	text-align: center;
+	margin-top: 16px;
+}
+#hang1 {
+	background-color: #09F;
+	height: 16px;
+	padding-left: 5px;
+}
+#mk12 table {
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #6CF;
+	border-right-color: #6CF;
+	border-bottom-color: #6CF;
+	border-left-color: #6CF;
+}
+#form1 .input1 {
+	height: 20px;
+}
+
+#mk12 .td1 {
+	background-color: #FF9;
+	height: 20px;
+	width: 100px;
+	text-align: right;
+	padding-right: 3px;
+	line-height: 3em;
+}
+#mk12 td {
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #6CF;
+	border-bottom-color: #6CF;
+}
+
+#mk12 .td2 {
+	padding-left: 6px;
+	width: 400px;
+}

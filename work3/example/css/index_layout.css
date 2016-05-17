@@ -1,0 +1,124 @@
+@charset "utf-8";
+#master_right #mk1 {
+	line-height: 4em;
+	width: 350px;
+	padding-left: 10px;
+	padding-top: 30px;
+	vertical-align: top;
+	display: block;
+}
+#master_right #mk2 {
+	width: 236px;
+	text-indent: 2em;
+	padding: 2px;
+}
+#master_right #mk3 {
+	width: 400px;
+	padding-left: 2px;
+	background-image: url(../images/29.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 25px;
+}
+
+#master_right #mk3 img {
+	padding: 2px;
+	margin-right: 2px;
+}
+#master_right #mk3 ul {
+	display: block;
+	line-height: 1.2em;
+	height: 100px;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+#master_right #mk3 #mk3_1 {
+	height: 100px;
+	width: 190px;
+	padding: 5px;
+}
+#master_right #mk3 #mk3_2 {
+	padding: 5px;
+	height: 100px;
+	width: 190px;
+}
+#master_right #mk3 #mk3_3 {
+	padding: 5px;
+	width: 190px;
+	height: 100px;
+}
+#master_right #mk3 #mk3_4 {
+	padding: 5px;
+	width: 190px;
+	height: 100px;
+}
+#master_right #mk3 #mk3_5 {
+	padding: 5px;
+	width: 190px;
+	height: 100px;
+}
+#master_right #mk3 #mk3_6 {
+	padding: 5px;
+	width: 190px;
+	height: 100px;
+}
+#master_right #mk3 #mk3_7 {
+	padding: 5px;
+	width: 190px;
+	height: 100px;
+}
+#master_right #mk3 #mk3_8 {
+	padding: 5px;
+	width: 190px;
+	height: 100px;
+	display: block;
+}
+#master_right #mk3 #mk3_9 {
+	padding: 5px;
+	width: 190px;
+	height: 100px;
+}
+#master_right #mk3 #mk3_10 {
+	padding: 5px;
+	width: 190px;
+	height: 100px;
+}
+#master_right #mk3 #mk3_11 {
+	height: 30px;
+	width: 200px;
+	text-align: right;
+}
+
+
+#master_right #mk4 {
+	width: 194px;
+	padding-right: 2px;
+	padding-left: 2px;
+	background-image: url(../images/30.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#master_right #mk4 ul {
+	padding-top: 25px;
+}
+#master_right #mk4 li {
+	line-height: 1.8em;
+	display: block;
+}
+#master_right #mk5 {
+	width: 194px;
+	padding-right: 2px;
+	padding-left: 2px;
+	background-image: url(../images/31.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin-top: 5px;
+}
+#master_right #mk5 ul {
+	padding-top: 25px;
+}
+#master_right #mk5 li {
+	line-height: 1.8em;
+	display: block;
+}
