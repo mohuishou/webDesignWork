@@ -1,46 +1,46 @@
  html,body{
-            width: 100%;
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-        body{
-            background: url("./img/bg.jpg");
-        }
-        #wrap{
-            max-width:780px;
-            margin: 0 auto;
-        }
-        
+ 	width: 100%;
+ 	height: 100%;
+ 	margin: 0;
+ 	padding: 0;
+ }
+ body{
+ 	background: url("./img/bg.jpg");
+ }
+ #wrap{
+ 	max-width:780px;
+ 	margin: 0 auto;
+ }
+ 
 
-        
-        .line{
-            background-image: url("./img/lingbg1.gif");
-            height: 20px;
-        }
-        
-        .clear{
-            clear: both;
-        }
-        
-        .left{
-            float: left;
-        }
-        
-        .right{
-            float: right;
-        }
-        
-        #master{
-            float: right;
-            width:600px;
-            background-color: #FFF;
-        }
-        
-        #master a{
-            color: #333;
-            font-size: 12px;
-        }
+ 
+ .line{
+ 	background-image: url("./img/lingbg1.gif");
+ 	height: 20px;
+ }
+ 
+ .clear{
+ 	clear: both;
+ }
+ 
+ .left{
+ 	float: left;
+ }
+ 
+ .right{
+ 	float: right;
+ }
+ 
+ #master{
+ 	float: right;
+ 	width:600px;
+ 	background-color: #FFF;
+ }
+ 
+ #master a{
+ 	color: #333;
+ 	font-size: 12px;
+ }
         
 #master #mk1 {
 	line-height: 4em;
