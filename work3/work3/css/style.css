@@ -55,78 +55,34 @@
 	text-indent: 2em;
 	padding: 2px;
 }
-#master #mk3 {
+#master #all-product {
 	width: 400px;
 	padding-left: 2px;
-	background-image: url(../images/29.gif);
+	background-image: url(../img/29.gif);
 	background-repeat: no-repeat;
 	background-position: left top;
 	padding-top: 25px;
 }
 
-#master #mk3 img {
+#master .product img {
 	padding: 2px;
 	margin-right: 2px;
+	float: left;
 }
-#master #mk3 ul {
+#master .product ul {
 	display: block;
 	line-height: 1.2em;
 	height: 100px;
 	padding-top: 20px;
 	padding-right: 20px;
 }
-#master #mk3 #mk3_1 {
+#master .product{
 	height: 100px;
 	width: 190px;
 	padding: 5px;
 }
-#master #mk3 #mk3_2 {
-	padding: 5px;
-	height: 100px;
-	width: 190px;
-}
-#master #mk3 #mk3_3 {
-	padding: 5px;
-	width: 190px;
-	height: 100px;
-}
-#master #mk3 #mk3_4 {
-	padding: 5px;
-	width: 190px;
-	height: 100px;
-}
-#master #mk3 #mk3_5 {
-	padding: 5px;
-	width: 190px;
-	height: 100px;
-}
-#master #mk3 #mk3_6 {
-	padding: 5px;
-	width: 190px;
-	height: 100px;
-}
-#master #mk3 #mk3_7 {
-	padding: 5px;
-	width: 190px;
-	height: 100px;
-}
-#master #mk3 #mk3_8 {
-	padding: 5px;
-	width: 190px;
-	height: 100px;
-	display: block;
-}
-#master #mk3 #mk3_9 {
-	padding: 5px;
-	width: 190px;
-	height: 100px;
-}
-#master #mk3 #mk3_10 {
-	padding: 5px;
-	width: 190px;
-	height: 100px;
-}
-#master #mk3 #mk3_11 {
+
+#master #all-product #mk3_11 {
 	height: 30px;
 	width: 200px;
 	text-align: right;
@@ -137,7 +93,7 @@
 	width: 194px;
 	padding-right: 2px;
 	padding-left: 2px;
-	background-image: url(../images/30.gif);
+	background-image: url(../img/30.gif);
 	background-repeat: no-repeat;
 	background-position: left top;
 }
@@ -153,7 +109,7 @@
 	width: 194px;
 	padding-right: 2px;
 	padding-left: 2px;
-	background-image: url(../images/31.gif);
+	background-image: url(../img/31.gif);
 	background-repeat: no-repeat;
 	background-position: left top;
 	margin-top: 5px;
