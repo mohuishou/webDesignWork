@@ -1,0 +1,23 @@
+#reg{
+	float: right;
+ 	width:600px;
+ 	background-color: #FFF;
+ 	height: 850px;
+ 	font-size: 12px;
+}
+#reg form table{
+	width: 98%;
+	cellspacing:0;
+	cellpadding:0;
+}
+#reg .td1{
+	background: #FF9;
+	text-align: right;
+}
+
+#reg td{
+	border-right: thin solid #6CF;
+	border-bottom: thin solid #6CF;
+	padding:10px;
+
+}

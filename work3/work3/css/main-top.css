@@ -33,17 +33,22 @@
 }
 #nav .nav-right ul{
     margin-top:6px;
+    margin-left: 40px;
     /* padding:5px; */
 }
 #nav ul>li{
     display: inline-block;
-    background:; 
+
+     
 }
 #nav ul>li>a{
     /* padding-top:5px; */
     color: #fff;
     font-size: 12px;
     text-decoration: none;
+    border-right:1px solid #00F ;
+    padding-right: 15px;
+    padding-left:8px;
 }
 /*---------导航结束---------*/
 

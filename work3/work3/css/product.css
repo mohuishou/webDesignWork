@@ -68,3 +68,30 @@
 	display: block;
 }
 
+
+
+#phone{
+	float: right;
+ 	width:600px;
+ 	background-color: #FFF;
+ 	height: 850px;
+}
+
+#phone>div{
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+#phone img{
+	height: 90px;
+    width: 110px;
+    border: thin solid #0C9;
+    margin-right:15px;
+    margin-left: 15px;
+    padding: 10px 4px;
+    display: block;
+}
+#phone .name{
+	text-align: center;
+	margin-top:10px;
+}
